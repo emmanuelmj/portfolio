@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-white tracking-tighter">
-                            Vertex
+                            Emmanuel MJ
                         </Link>
                     </div>
 

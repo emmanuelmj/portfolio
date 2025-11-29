@@ -24,7 +24,7 @@ function App() {
 
                 <footer className="py-8 bg-gray-50 dark:bg-black border-t border-gray-200 dark:border-gray-800 text-center">
                     <p className="text-gray-600 dark:text-gray-400">
-                        © {new Date().getFullYear()} Vertex. All rights reserved.
+                        © {new Date().getFullYear()} Emmanuel MJ. All rights reserved.
                     </p>
                 </footer>
             </div>
