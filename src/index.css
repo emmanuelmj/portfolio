@@ -1,12 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-background-light: #ffffff;
+  --color-background-dark: #000000;
+  --color-background-darkGray: #0a0a0a;
+  --color-accent-gray: #374151;
+  --color-accent-blue: #2563eb;
+
+  --font-sans: Inter, system-ui, sans-serif;
+}
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply antialiased text-gray-900 dark:text-gray-100 bg-background-light dark:bg-background-dark transition-colors duration-300;
   }
